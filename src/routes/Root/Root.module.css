@@ -1,0 +1,43 @@
+
+.div {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #333333;
+    border-radius: 30px;
+    border: 1px solid #FFFBF0;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between ;
+    align-items:  center;
+    padding: 14px 140px;
+    
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navDiv {
+    display: flex;
+    align-items: center;
+}
+.sv{
+    color: #333333;
+    border-radius: 30px;
+    border: 1px solid #FFFBF0;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    background-color: inherit;
+    color: white;
+}
+
+.navDiv a:not(:last-child) {
+    margin-right: 13px;
+
+}
+
