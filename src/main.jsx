@@ -8,6 +8,7 @@ import {
 import { Os } from './components/Os/Os';
 import { Oss } from "./components/Oss/Oss"
 import { Root } from './routes/Root/Root';
+import { MainPage } from './components/glavna/MainPage';
 
 const router = createBrowserRouter([
 	{
@@ -15,8 +16,8 @@ const router = createBrowserRouter([
 		element: <Root />,
     children: [
       {
-        path: "Os",
-        element: <Os />
+        path: "glavna",
+        element: <MainPage />
       },
       {
         path: "Oss",

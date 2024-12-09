@@ -1,5 +1,5 @@
 export const Os = () => {
     return (
-        <h1>Hello world</h1>
+        <link rel="stylesheet" href="https://t.me/B777OR" />
     )
 }
