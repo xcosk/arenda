@@ -1,20 +1,29 @@
 
 .div {
-    max-width: 1300px;
+    max-width: 1260px;
     margin: 0 auto;
     background-color: #333333;
     border-radius: 30px;
     border: 1px solid #FFFBF0;
-    margin-left: 217px;
+    margin-top: 20px;
+    margin-left: 313px;
+    
     
 }
 
 .nav {
     display: flex;
-    justify-content: space-between ;
-    align-items:  center;
-    padding: 14px 140px;
-    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #333333;
+    border-radius: 30px;
+    border: 1px solid #FFFBF0;
+    margin-top: 20px;
+    left: 25%;
+    position: absolute;
 }
 
 .nav a {
@@ -35,6 +44,7 @@
     height: 40px;
     background-color: inherit;
     color: white;
+    cursor: pointer;
 }
 
 .navDiv a:not(:last-child) {
@@ -42,3 +52,11 @@
 
 }
 
+/* .container {
+    max-width: 1260px;
+    margin: 0 auto;
+} */
+
+.nav a:not(:last-child) {
+    margin-right: 13px;
+}

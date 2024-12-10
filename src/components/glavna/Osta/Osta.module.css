@@ -1,0 +1,72 @@
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: top 100px;;
+    width: 400px;
+    height: 160px;
+    background-color: #333333;
+    border: 1px solid #FFFBF0;
+    border-radius: 20px;
+    color: white;
+}
+
+.box:not(:last-child) {
+    margin-right: 30px;
+}
+
+.fText {
+    margin-top: 36px;
+    font-size: 40px;
+}
+
+.sText {
+    width: 257px;
+    text-align: center;
+}
+
+.Li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 25px;
+    width: 400px;
+    height: 110px;
+    background-color: #333333;
+    border: 1px solid #FFFBF0;
+    border-radius: 20px;
+}
+
+.divCar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Il {
+    margin-top: 30px;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #1D1D1D;
+}
+
+.con h2 {
+    color: white;
+}

@@ -1,7 +1,8 @@
 .fon{
     background-image: url("../../../../public/images/image2.png") ;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 857px;
     width: 1976px;
-
+    
 }

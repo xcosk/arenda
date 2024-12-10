@@ -4,8 +4,6 @@ import s from "./Root.module.css"
 export const Root = () => {
     return (
         <>
-        
-        <div className={s.div}>
             <nav className={s.nav}>
                 <NavLink className={s.a} to={"glavna"}>Premium</NavLink>
                 <NavLink className={s.b} to={"Oss"}>Личный кабинет</NavLink>
@@ -16,11 +14,7 @@ export const Root = () => {
                     <NavLink><button className={s.sv}>Связаться с нами</button></NavLink>
                 </div>
             </nav>
-
-        </div>
-            <div>
                 <Outlet />
-            </div>
         </>
     )
 }
