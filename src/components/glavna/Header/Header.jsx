@@ -3,13 +3,14 @@ export const Header = () => {
 
 
    return (
-//    <div className={f.fon}>
-//     <div className={f.fn}><p>АРЕНДА АВТО ПРЕМИУМ КЛАССА В МОСКВЕ</p></div> 
-//     <button className={f.bn}>Выбрать автомобиль</button>
-//      </div>
     <div className={f.fon}>
-
+        
+        <div className={f.container}>
+        <p className={f.bmw}>АРЕНДА АВТО ПРЕМИУМ <br /> КЛАССА В МОСКВЕ</p>
+        <button className={f.btn}>Связаться с нами</button>
+        </div>
     </div>
+    
 )
 
 }

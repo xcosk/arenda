@@ -40,7 +40,7 @@
     border-radius: 30px;
     border: 1px solid #FFFBF0;
     text-decoration: none;
-    width: 160px;
+    width: 190px;
     height: 40px;
     background-color: inherit;
     color: white;
@@ -52,10 +52,10 @@
 
 }
 
-/* .container {
-    max-width: 1260px;
+.container {
+    max-width: 1360px;
     margin: 0 auto;
-} */
+}
 
 .nav a:not(:last-child) {
     margin-right: 13px;

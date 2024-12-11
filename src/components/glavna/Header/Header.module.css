@@ -1,8 +1,28 @@
 .fon{
     background-image: url("../../../../public/images/image2.png") ;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 857px;
-    width: 1976px;
-    
+    background-repeat: no-repeat;
+background-position: center;
 }
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+
+.bmw {
+    padding-top: 417px;
+    color:  white;
+    font-size: 50px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 30px;
+    width: 260px;
+    height: 50px;
+}
+

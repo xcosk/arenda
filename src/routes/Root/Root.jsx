@@ -14,7 +14,8 @@ export const Root = () => {
                     <NavLink><button className={s.sv}>Связаться с нами</button></NavLink>
                 </div>
             </nav>
-                <Outlet />
+            <Outlet />
+                
         </>
     )
 }

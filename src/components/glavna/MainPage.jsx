@@ -1,4 +1,5 @@
 import { Header } from "./Header/Header"
+import { Kolo } from "./Kolo/Kolo"
 import { Osta } from "./Osta/Osta"
 
 export const MainPage = () => {
@@ -6,6 +7,7 @@ export const MainPage = () => {
         <>
         <Header />
         <Osta />
+        <Kolo />
         </>
     )
 }

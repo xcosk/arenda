@@ -2,9 +2,7 @@ import { Link } from "react-router-dom"
 import p from "./Osta.module.css"
 export const Osta = () => {
     return(
-        <div>
-            
-       
+        <div className={p.container}>
         <div className={p.con}>
             <div className={p.flex}>
                 <div className={p.box}>
