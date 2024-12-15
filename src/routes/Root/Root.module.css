@@ -60,3 +60,42 @@
 .nav a:not(:last-child) {
     margin-right: 13px;
 }
+
+.foot {
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    border: 1px solid white;
+    width: 1360px;
+    height: 120px;
+}
+
+.containerFoot {
+    max-width: 1360px;  
+    margin: 0 auto;
+}
+.bun{
+    color:white;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #333333;
+    border: 1px solid #FFFBF0;
+
+}
+input {
+    /* Делает само поле ввода прозрачным */
+    background: transparent;
+    /* Убираем рамки вокруг поля ввода */
+    border: none;
+    /* Добавим нижнюю черту для красоты */
+    border-bottom: 1px solid #444;
+  }
+
+  button{
+    cursor: pointer;
+  }

@@ -21,24 +21,6 @@ export const Kolo = () => {
                 <p>80.000 руб/сутки</p>
             </div>
         </div>
-
-        <div className={m.mo}><p>Три простых шага для аренды автомобиля</p></div>
-
-        <div className={m.hak}>
-                <div className={m.cnopk1}>
-            <p>01.</p>
-            </div>
-            <p className={m.cl1}>Заявка в WhatsApp <br/>или Telegram</p>
-        <div className={m.cnopk2}>
-            <p>02.</p>
-            </div>
-            <p className={m.cl1}>Доставка автомобиля <br/>в любую точку Москвы</p>
-        <div className={m.cnopk3}>
-                <p>03.</p>
-            </div>
-            <p className={m.cl1}>Подписание договора<br/>аренды за 10 минут</p>
-        
-        </div>
     
     </div>
 

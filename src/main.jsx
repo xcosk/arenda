@@ -9,6 +9,9 @@ import { Os } from './components/Os/Os';
 import { Oss } from "./components/Oss/Oss"
 import { Root } from './routes/Root/Root';
 import { MainPage } from './components/glavna/MainPage';
+import { Prem } from './components/glavna/Prem/Prem';
+import { Vned } from './components/glavna/Vned/Vned';
+import { Kabrio } from './components/glavna/Kabrio/Kabrio';
 
 const router = createBrowserRouter([
 	{
@@ -16,12 +19,24 @@ const router = createBrowserRouter([
 		element: <Root />,
     children: [
       {
-        path: "glavna",
+        path: "/",
         element: <MainPage />
       },
       {
         path: "Oss",
-        element: <Oss />
+      element: <Oss />
+      },
+      {
+        path: "Prem",
+        element: <Prem />
+      },
+      {
+        path: "Vned",
+        element: <Vned />
+      },
+      {
+        path: "Kabrio",
+        element: <Kabrio />
       }
     ]
 	},

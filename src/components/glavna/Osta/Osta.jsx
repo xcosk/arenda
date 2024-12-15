@@ -7,7 +7,7 @@ export const Osta = () => {
             <div className={p.flex}>
                 <div className={p.box}>
                     <span className={p.fText}>77</span>
-                    <span className={p.sText}>Автомобилей в автопарке Premium Car</span>
+                    <span className={p.sText}>Автомобилей в автопарке Premium</span>
                 </div>
                 <div className={p.box}>
                     <span className={p.fText}>7</span>
@@ -15,20 +15,20 @@ export const Osta = () => {
                 </div>
                 <div className={p.box}>
                     <span className={p.fText}>900 млн.</span>
-                    <span className={p.sText}>Рублей стоимость автомобилей Premium Car</span>
+                    <span className={p.sText}>Рублей стоимость автомобилей Premium</span>
                 </div>
             </div>
             <h2>Категории автомобилей</h2>
             <div className={p.divCar}>
-            <Link className={p.Li}>
+            <Link to={"Prem"} className={p.Li}>
                 <span>ПРЕМИУМ</span>
                 <img src="/images/Lux.png" alt="" />
             </Link>
-            <Link className={p.Li}>
+            <Link  to={"Vned"} className={p.Li}>
                 <span>ВНЕДОРОЖНИКИ</span>
                 <img src="/images/benz.png.png" alt="" />
             </Link>
-            <Link className={p.Li}>
+            <Link to={"Kabrio"} className={p.Li}>
                 <span>КАБРИОЛЕТЫ</span>
                 <img src="/images/Cabri.png.png" alt="" />
             </Link>

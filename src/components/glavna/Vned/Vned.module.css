@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.container h2 {
+    color: white;
+    font-size: 40px;
+    margin: 140px 0 40px 0;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 160px;
+    background-color: #333333;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #FFFBF0;
+}
+
+.fText {
+    font-size: 40px;
+    color: white;
+}
+
+.sText {
+    width: 232px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.divCar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 25px;
+    width: 400px;
+    height: 110px;
+    border-radius: 15px;
+    border: 1px solid #FFFBF0;
+    color: white;
+    text-decoration: none;
+    background-color: #333333;
+}
+
+.Il {
+    margin-top: 30px;
+}
+.dis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lo{
+    height: 360px;
+    width: 560px;
+    color: white;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+
+}
+.mo{
+    font-size: 40px;
+    color: white;
+    margin-top: 260px;
+    margin-right: 983px;
+}
+.cnopk1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 130px;
+    height: 74px;
+    background-color: #333333;
+    border: 1px solid #FFFBF0;
+    border-radius: 20px;
+    color: white;
+    margin-left: 930px;
+    font-size: 50px;
+    margin-bottom: 51px;
+}
+
+    
+.cnopk2{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 130px;
+    height: 74px;
+    background-color: #333333;
+    border: 1px solid #FFFBF0;
+    border-radius: 20px;
+    color: white;
+    margin-left: 930px;
+    font-size: 50px;
+    margin-bottom: 51px;
+}
+.cnopk3{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 130px;
+    height: 74px;
+    background-color: #333333;
+    border: 1px solid #FFFBF0;
+    border-radius: 20px;
+    color: white;
+    margin-left: 930px;
+    font-size: 50px;
+}
+.cl1{
+    margin-left: 1090px;
+    color: #FFFBF0;
+   
+}
+.container {
+    max-width: 1360px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,37 @@
+p{
+    color: white;
+    font-size: 20px;
+}
+.bof{
+    height: 51px;
+    width: 355px;
+    background-color:#362F2F ;
+    border: 1px solid #FFFBF0;
+    margin-bottom: 25px;
+}
+
+.jh {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.jh input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto ;
+    margin-bottom: 100px;
+    padding-top: 170px;
+}
+.bi{
+    width: 210px;
+    height: 49px;
+    color: #FFFBF0;
+    border-radius: 20px;
+    background-color:#362F2F ;
+    border: 1px solid #FFFBF0;
+}
