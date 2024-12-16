@@ -13,7 +13,7 @@ export const Prem = () => {
           <span>ВНЕДОРОЖНИКИ</span>
           <img src="/images/benz.png.png" alt="" />
       </Link>
-      <Link to={"Kabrio"} className={pr.Li}>
+      <Link to={"/Kabrio"} className={pr.Li}>
           <span>КАБРИОЛЕТЫ</span>
           <img src="/images/Cabri.png.png" alt="" />
       </Link>

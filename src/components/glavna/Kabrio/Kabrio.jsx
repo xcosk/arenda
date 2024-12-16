@@ -3,7 +3,7 @@ import pr from "./Kabrio.module.css"
 export const Kabrio = () => {
     return(
          <div className={pr.container}>
-              <h2>Аренда автомобилей премиум-класса в Москве</h2>
+              <h2>Аренда кабриолетов в Москве</h2>
               <div className={pr.divCar}>
               <Link to={"/Prem"} className={pr.Li}>
                   <span>ПРЕМИУМ</span>
@@ -31,21 +31,9 @@ export const Kabrio = () => {
               </Link>
               </div>
               <div className={pr.dis}>
-                          <div className={pr.lo}><img src="/images/kkk.png" alt="" />
-                              <p>Аренда Maserati Levante</p>
-                              <p>25.000 руб/сутки</p>
-                          </div>
-                          <div className={pr.lo}><img src="/images/ppp.png" alt="" />
-                              <p>Аренда Rolls-Royce Wraith</p>
-                              <p>75.000 руб/сутки</p>
-                          </div>
-                          <div className={pr.lo}><img src="/images/ll.png" alt="" />
-                              <p>Аренда Mercedes - Benz G класс AMG 63</p>
-                              <p>55.000 руб/сутки</p>
-                          </div>
-                          <div className={pr.lo}><img src="/images/hhh.png" alt="" />
-                              <p>Аренда Mercedes S class W 223</p>
-                              <p>90.000 руб/сутки</p>
+                          <div className={pr.lo}><img src="/images/hffh.png" alt="" />
+                              <p>Аренда BMW M850 CABRIO</p>
+                              <p>45.000 руб/сутки</p>
                           </div>
                       </div>
               </div>
