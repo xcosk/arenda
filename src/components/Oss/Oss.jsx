@@ -18,7 +18,7 @@ export const Oss = () => {
                     </div>
                  </div>
                  </div>
-            <button className={ll.bi}>Отправить</button>
+            <button className={ll.bi} onClick={() => alert("Успешно,через 5 минут вам наберут.")} >Отправить</button>
             </div>
         </div>
     )
