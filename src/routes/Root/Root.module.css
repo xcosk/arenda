@@ -94,6 +94,7 @@ input {
     border: none;
     /* Добавим нижнюю черту для красоты */
     border-bottom: 1px solid #444;
+    color: #FFFBF0;
   }
 
   button{

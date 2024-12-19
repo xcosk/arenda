@@ -6,16 +6,16 @@ export const Osta = () => {
         <div className={p.con}>
             <div className={p.flex}>
                 <div className={p.box}>
-                    <span className={p.fText}>77</span>
-                    <span className={p.sText}>Автомобилей в автопарке Premium</span>
+                    <span className={p.fText}>15.</span>
+                    <span className={p.sText}>Автомобилей в автопарке <br />CAR RENTAL</span>
                 </div>
                 <div className={p.box}>
-                    <span className={p.fText}>7</span>
+                    <span className={p.fText}>1 год.</span>
                     <span className={p.sText}>На рынке премиальных авто в Москве</span>
                 </div>
                 <div className={p.box}>
                     <span className={p.fText}>900 млн.</span>
-                    <span className={p.sText}>Рублей стоимость автомобилей Premium</span>
+                    <span className={p.sText}>Рублей стоимость автомобилей <br /> CAR RENTAL</span>
                 </div>
             </div>
             <h2>Категории автомобилей</h2>
@@ -32,15 +32,15 @@ export const Osta = () => {
                 <span>КАБРИОЛЕТЫ</span>
                 <img src="/images/Cabri.png.png" alt="" />
             </Link>
-            <Link className={`${p.Li} ${p.Il}`}>
+            <Link to={"Sport"} className={`${p.Li} ${p.Il}`}>
                 <span>СПОРТКАРЫ</span>
                 <img src="/images/Sport_Car.png.png" alt="" />
             </Link>
-            <Link className={`${p.Li} ${p.Il}`}>
+            <Link to={"Cbr"} className={`${p.Li} ${p.Il}`}>
                 <span>КУПЕ</span>    
                 <img src="/images/Coupe.png.png" alt="" />    
             </Link>
-            <Link className={`${p.Li} ${p.Il}`}>
+            <Link to={"Vse"} className={`${p.Li} ${p.Il}`}>
                 <span>ВЕСЬ АВТОПАРК</span> 
                 <img src="/images/All.png.png" alt="" />       
             </Link>

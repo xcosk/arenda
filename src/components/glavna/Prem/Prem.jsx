@@ -17,15 +17,15 @@ export const Prem = () => {
           <span>КАБРИОЛЕТЫ</span>
           <img src="/images/Cabri.png.png" alt="" />
       </Link>
-      <Link className={`${pr.Li} ${pr.Il}`}>
+      <Link  to={"/Sport"}className={`${pr.Li} ${pr.Il}`}>
           <span>СПОРТКАРЫ</span>
           <img src="/images/Sport_Car.png.png" alt="" />
       </Link>
-      <Link className={`${pr.Li} ${pr.Il}`}>
+      <Link to={"/Cbr"} className={`${pr.Li} ${pr.Il}`}>
           <span>КУПЕ</span>    
           <img src="/images/Coupe.png.png" alt="" />    
       </Link>
-      <Link className={`${pr.Li} ${pr.Il}`}>
+      <Link to={"/Vse"} className={`${pr.Li} ${pr.Il}`}>
           <span>ВЕСЬ АВТОПАРК</span> 
           <img src="/images/All.png.png" alt="" />       
       </Link>

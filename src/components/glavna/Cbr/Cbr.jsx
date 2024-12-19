@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom"
-import pr from "./Vned.module.css"
-export const Vned = () => {
+import pr from "./Cbr.module.css"
+export const Cbr = () => {
    return (
      <div className={pr.container}>
-      <h2>Аренда внедорожников <br />премиум-класса в Москве</h2>
+      <h2>Аренда  премиум-класса в Москве</h2>
       <div className={pr.divCar}>
       <Link to={"/Prem"} className={pr.Li}>
           <span>ПРЕМИУМ</span>
           <img src="/images/Lux.png" alt="" />
       </Link>
-      <Link className={pr.Li}>
+      <Link  to={"/Vned"}className={pr.Li}>
           <span>ВНЕДОРОЖНИКИ</span>
           <img src="/images/benz.png.png" alt="" />
       </Link>
@@ -21,7 +21,7 @@ export const Vned = () => {
           <span>СПОРТКАРЫ</span>
           <img src="/images/Sport_Car.png.png" alt="" />
       </Link>
-      <Link to={"/Cbr"} className={`${pr.Li} ${pr.Il}`}>
+      <Link className={`${pr.Li} ${pr.Il}`}>
           <span>КУПЕ</span>    
           <img src="/images/Coupe.png.png" alt="" />    
       </Link>
@@ -31,21 +31,21 @@ export const Vned = () => {
       </Link>
       </div>
       <div className={pr.dis}>
-                  <div className={pr.lo}><img src="/images/kkk.png" alt="" />
-                      <p>Аренда Maserati Levante</p>
-                      <p>25.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/911pr.png" alt="" />
+                      <p>Аренда Porsche 911 Carrera 4s</p>
+                      <p>40.000 руб/сутки</p>
                   </div>
-                  <div className={pr.lo}><img src="/images/kkkks.png" alt="" />
-                      <p>Аренда Mercedes - Benz GLE 63S AMG</p>
-                      <p>25.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/m5.png" alt="" />
+                      <p>Аренда BMW М5 Competition</p>
+                      <p>45.000 руб/сутки</p>
                   </div>
-                  <div className={pr.lo}><img src="/images/ll.png" alt="" />
-                      <p>Аренда Mercedes - Benz G класс AMG 63</p>
+                  <div className={pr.lo}><img src="/images/hffh.png" alt="" />
+                      <p>Аренда BMW M8 Competition</p>
                       <p>55.000 руб/сутки</p>
                   </div>
-                  <div className={pr.lo}><img src="/images/fkffk.png" alt="" />
-                      <p>Аренда Mercedes - Benz G класс AMG 63</p>
-                      <p>50.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/m4.png" alt="" />
+                      <p>Аренда BMW M440</p>
+                      <p>40.000 руб/сутки</p>
                   </div>
               </div>
       </div>

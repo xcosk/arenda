@@ -12,6 +12,9 @@ import { MainPage } from './components/glavna/MainPage';
 import { Prem } from './components/glavna/Prem/Prem';
 import { Vned } from './components/glavna/Vned/Vned';
 import { Kabrio } from './components/glavna/Kabrio/Kabrio';
+import { Sport } from './components/glavna/Sport/Sport';
+import { Cbr } from './components/glavna/Cbr/Cbr';
+import { Vse } from './components/glavna/Vse/Vse';
 
 const router = createBrowserRouter([
 	{
@@ -37,6 +40,18 @@ const router = createBrowserRouter([
       {
         path: "Kabrio",
         element: <Kabrio />
+      },
+      {
+        path: "Sport",
+        element: <Sport />
+      },
+      {
+        path: "Cbr",
+        element: <Cbr />
+      },
+      {
+        path: "Vse",
+        element: <Vse />
       }
     ]
 	},
