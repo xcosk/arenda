@@ -5,7 +5,6 @@ import {
 	createBrowserRouter,
 	RouterProvider,
 } from 'react-router-dom';
-import { Os } from './components/Os/Os';
 import { Oss } from "./components/Oss/Oss"
 import { Root } from './routes/Root/Root';
 import { MainPage } from './components/glavna/MainPage';

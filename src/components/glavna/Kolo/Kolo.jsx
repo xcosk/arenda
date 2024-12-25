@@ -8,8 +8,9 @@ export const Kolo = () => {
                 <p>Аренда Rolls-Royce Cullinan Black</p>
                 <p>110.000 руб/сутки</p>
             </div>
-            <div className={m.lo}><img src="/images/Image-2.png" alt="" />
-                <p>Аренда Rolls-Royce Cullinan Black</p>
+            <div className={m.lo}>
+                <img src="/images/Image-2.png" alt="" />
+                <p>Аренда Rolls-Royce Gost Black</p>
                 <p>110.000 руб/сутки</p>
             </div>
             <div className={m.lo}><img src="/images/Image-3.png" alt="" />

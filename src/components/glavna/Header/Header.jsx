@@ -7,7 +7,7 @@ export const Header = () => {
         
         <div className={f.container}>
         <p className={f.bmw}>АРЕНДА АВТО ПРЕМИУМ <br /> КЛАССА В МОСКВЕ</p>
-        <button className={f.btn} onClick={() => alert("+79774714910")} >Связаться с нами</button>
+        <button className={f.btn} onClick={() => alert("+7(977) 471 49 10")} >Связаться с нами</button>
         </div>
     </div>
     

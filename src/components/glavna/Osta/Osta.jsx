@@ -6,7 +6,7 @@ export const Osta = () => {
         <div className={p.con}>
             <div className={p.flex}>
                 <div className={p.box}>
-                    <span className={p.fText}>15.</span>
+                    <span className={p.fText}>25.</span>
                     <span className={p.sText}>Автомобилей в автопарке <br />CAR RENTAL</span>
                 </div>
                 <div className={p.box}>
@@ -14,7 +14,7 @@ export const Osta = () => {
                     <span className={p.sText}>На рынке премиальных авто в Москве</span>
                 </div>
                 <div className={p.box}>
-                    <span className={p.fText}>900 млн.</span>
+                    <span className={p.fText}>120 млн.</span>
                     <span className={p.sText}>Рублей стоимость автомобилей <br /> CAR RENTAL</span>
                 </div>
             </div>

@@ -11,7 +11,7 @@ export const Oss = () => {
                         <input className={ll.im} placeholder="имя" type="text" /> 
                     </div>
                     <div className={ll.bof}>
-                        <input className={ll.im} placeholder="+7 999 999 99 99" type="tel" />
+                        <input className={ll.im} placeholder="+7 (___) ___ __ __" type="tel" />
                     </div>
                         <div className={ll.bof}>
                         <input className={ll.iim} type="date" />
