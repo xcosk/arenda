@@ -7,42 +7,39 @@ export const Osta = () => {
             <div className={p.flex}>
                 <div className={p.box}>
                     <span className={p.fText}>25.</span>
-                    <span className={p.sText}>Автомобилей в автопарке <br />CAR RENTAL</span>
+                    <span className={p.sText}>Домов на продаже <br />FGT</span>
                 </div>
                 <div className={p.box}>
                     <span className={p.fText}>1 год.</span>
-                    <span className={p.sText}>На рынке премиальных авто в Москве</span>
+                    <span className={p.sText}>На рынке недвижимость в Москве</span>
                 </div>
                 <div className={p.box}>
-                    <span className={p.fText}>120 млн.</span>
-                    <span className={p.sText}>Рублей стоимость автомобилей <br /> CAR RENTAL</span>
+                    <span className={p.fText}>Болле 100</span>
+                    <span className={p.sText}>Успешных сделок ! <br /> FGT</span>
                 </div>
             </div>
-            <h2>Категории автомобилей</h2>
+            <h2>Категории </h2>
             <div className={p.divCar}>
             <Link to={"Prem"} className={p.Li}>
-                <span>ПРЕМИУМ</span>
-                <img src="/images/Lux.png" alt="" />
+                <span>Дома</span>
+                <img src="/images/Lux1.png" alt="" />
             </Link>
             <Link  to={"Vned"} className={p.Li}>
-                <span>ВНЕДОРОЖНИКИ</span>
+                <span>Таунхаус</span>
                 <img src="/images/benz.png.png" alt="" />
             </Link>
             <Link to={"Kabrio"} className={p.Li}>
-                <span>КАБРИОЛЕТЫ</span>
+                <span>Особняк</span>
                 <img src="/images/Cabri.png.png" alt="" />
             </Link>
             <Link to={"Sport"} className={`${p.Li} ${p.Il}`}>
-                <span>СПОРТКАРЫ</span>
-                <img src="/images/Sport_Car.png.png" alt="" />
+                <span>Участки</span>
             </Link>
             <Link to={"Cbr"} className={`${p.Li} ${p.Il}`}>
-                <span>КУПЕ</span>    
-                <img src="/images/Coupe.png.png" alt="" />    
+                <span>Пентхаус</span>        
             </Link>
             <Link to={"Vse"} className={`${p.Li} ${p.Il}`}>
-                <span>ВЕСЬ АВТОПАРК</span> 
-                <img src="/images/All.png.png" alt="" />       
+                <span>Квартиры</span>      
             </Link>
             </div>
         </div>

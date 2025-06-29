@@ -3,41 +3,38 @@ import pr from "./Vse.module.css"
 export const Vse = () => {
    return (
      <div className={pr.container}>
-      <h2>Аренда  премиум-класса в Москве</h2>
+      <h2>Квартиры</h2>
       <div className={pr.divCar}>
       <Link to={"/Prem"} className={pr.Li}>
-          <span>ПРЕМИУМ</span>
-          <img src="/images/Lux.png" alt="" />
+          <span>Дома</span>
+          <img src="/images/Lux1.png" alt="" />
       </Link>
       <Link  to={"/Vned"}className={pr.Li}>
-          <span>ВНЕДОРОЖНИКИ</span>
+          <span>Таунхаусы</span>
           <img src="/images/benz.png.png" alt="" />
       </Link>
       <Link to={"/Kabrio"} className={pr.Li}>
-          <span>КАБРИОЛЕТЫ</span>
+          <span>Особняки</span>
           <img src="/images/Cabri.png.png" alt="" />
       </Link>
       <Link to={"/Sport"} className={`${pr.Li} ${pr.Il}`}>
-          <span>СПОРТКАРЫ</span>
-          <img src="/images/Sport_Car.png.png" alt="" />
+          <span>Участоки</span>
       </Link>
       <Link to={"/Cbr"} className={`${pr.Li} ${pr.Il}`}>
-          <span>КУПЕ</span>    
-          <img src="/images/Coupe.png.png" alt="" />    
+          <span>Пентхаус</span>     
       </Link>
       <Link className={`${pr.Li} ${pr.Il}`}>
-          <span>ВЕСЬ АВТОПАРК</span> 
-          <img src="/images/All.png.png" alt="" />       
+          <span>Квартиры</span>       
       </Link>
       </div>
       <div className={pr.dis}>
                   <div className={pr.lo}><img src="/images/5ser.png" alt="" />
-                      <p>Аренда BMW X5 xDrive 40i AT</p>
-                      <p>22.000 руб/сутки</p>
+                      <p>Квартира 82 м² в ЖК «Довиль»</p>
+                      <p>59 879$</p>
                   </div>
                   <div className={pr.lo}><img src="/images/cadilac.png" alt="" />
-                      <p>Аренда Cadillac Escaled 600</p>
-                      <p>39.000 руб/сутки</p>
+                      <p>Квартира 78 м² в ЖК «Vnukovo Country Club ЖК»</p>
+                      <p>50 879$</p>
                   </div>
                   <div className={pr.lo}><img src="/images/lamba.png" alt="" />
                       <p>Аренда Lamborghini Aventador SVJ Roadster 800 Limit</p>

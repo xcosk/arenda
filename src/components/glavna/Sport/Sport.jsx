@@ -3,49 +3,46 @@ import pr from "./Sport.module.css"
 export const Sport = () => {
    return (
      <div className={pr.container}>
-      <h2>Аренда спортивных автомобилей <br />премиум-класса в Москве</h2>
+      <h2>Участоки</h2>
       <div className={pr.divCar}>
       <Link to={"/Prem"} className={pr.Li}>
-          <span>ПРЕМИУМ</span>
-          <img src="/images/Lux.png" alt="" />
+          <span>Дом</span>
+          <img src="/images/Lux1.png" alt="" />
       </Link>
       <Link  to={"/Vned"}className={pr.Li}>
-          <span>ВНЕДОРОЖНИКИ</span>
+          <span>Таунхаус</span>
           <img src="/images/benz.png.png" alt="" />
       </Link>
       <Link to={"/Kabrio"} className={pr.Li}>
-          <span>КАБРИОЛЕТЫ</span>
+          <span>Особняк</span>
           <img src="/images/Cabri.png.png" alt="" />
       </Link>
       <Link className={`${pr.Li} ${pr.Il}`}>
-          <span>СПОРТКАРЫ</span>
-          <img src="/images/Sport_Car.png.png" alt="" />
+          <span>Участоки</span>
       </Link>
       <Link to={"/Cbr"} className={`${pr.Li} ${pr.Il}`}>
-          <span>КУПЕ</span>    
-          <img src="/images/Coupe.png.png" alt="" />    
+          <span>Пентхаус</span>    
       </Link>
       <Link to={"/Vse"} className={`${pr.Li} ${pr.Il}`}>
-          <span>ВЕСЬ АВТОПАРК</span> 
-          <img src="/images/All.png.png" alt="" />       
+          <span>Квартиры</span>       
       </Link>
       </div>
       <div className={pr.dis}>
-                  <div className={pr.lo}><img src="/images/911pr.png" alt="" />
-                      <p>Аренда Porsche 911 Carrera 4s</p>
-                      <p>40.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/911prк.png" alt="" />
+                      <p>Земельный участок 1040 сот. в коттеджном поселке «Поречье </p>
+                      <p>59 879$</p>
                   </div>
-                  <div className={pr.lo}><img src="/images/m5.png" alt="" />
-                      <p>Аренда BMW М5 Competition</p>
-                      <p>45.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/m555.png" alt="" />
+                      <p>Земельный участок 158 сот. в коттеджном поселке «Николино»</p>
+                      <p>50 879$</p>
                   </div>
-                  <div className={pr.lo}><img src="/images/x5m.png" alt="" />
-                      <p>Аренда BMW X5M Competition</p>
-                      <p>45.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/mmmmkkkaaa.png" alt="" />
+                      <p>Земельный участок 1040 сот. в коттеджном поселке «Поречье»</p>
+                      <p>45 000$</p>
                   </div>
-                  <div className={pr.lo}><img src="/images/m4.png" alt="" />
-                      <p>Аренда BMW M440</p>
-                      <p>40.000 руб/сутки</p>
+                  <div className={pr.lo}><img src="/images/kfkkkdf.png" alt="" />
+                      <p>АЗемельный участок 18 сот. в коттеджном поселке «Кунцево»</p>
+                      <p>40 000$</p>
                   </div>
               </div>
       </div>

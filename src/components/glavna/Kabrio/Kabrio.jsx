@@ -3,37 +3,34 @@ import pr from "./Kabrio.module.css"
 export const Kabrio = () => {
     return(
          <div className={pr.container}>
-              <h2>Аренда кабриолетов в Москве</h2>
+              <h2>Особняки за границей</h2>
               <div className={pr.divCar}>
               <Link to={"/Prem"} className={pr.Li}>
-                  <span>ПРЕМИУМ</span>
-                  <img src="/images/Lux.png" alt="" />
+                  <span>Дом</span>
+                  <img src="/images/Lux1.png" alt="" />
               </Link>
               <Link to={"/Vned"} className={pr.Li}>
-                  <span>ВНЕДОРОЖНИКИ</span>
+                  <span>Таунхаус</span>
                   <img src="/images/benz.png.png" alt="" />
               </Link>
               <Link className={pr.Li}>
-                  <span>КАБРИОЛЕТЫ</span>
+                  <span>Особняк</span>
                   <img src="/images/Cabri.png.png" alt="" />
               </Link>
               <Link to={"/Sport"} className={`${pr.Li} ${pr.Il}`}>
-                  <span>СПОРТКАРЫ</span>
-                  <img src="/images/Sport_Car.png.png" alt="" />
+                  <span>Участоки</span>
               </Link>
               <Link to={"/Cbr"} className={`${pr.Li} ${pr.Il}`}>
-                  <span>КУПЕ</span>    
-                  <img src="/images/Coupe.png.png" alt="" />    
+                  <span>Пентхаус</span>    
               </Link>
               <Link to={"/Vse"} className={`${pr.Li} ${pr.Il}`}>
-                  <span>ВЕСЬ АВТОПАРК</span> 
-                  <img src="/images/All.png.png" alt="" />       
+                  <span>Квартиры</span> 
               </Link>
               </div>
               <div className={pr.dis}>
-                          <div className={pr.lo}><img src="/images/hffh.png" alt="" />
-                              <p>Аренда BMW M850 CABRIO</p>
-                              <p>45.000 руб/сутки</p>
+                          <div className={pr.lo}><img src="/images/hkkhkhgh.png" alt="" />
+                              <p>Особняк 2 300 м² в Риме в Италии</p>
+                              <p>49 999 879$</p>
                           </div>
                       </div>
               </div>

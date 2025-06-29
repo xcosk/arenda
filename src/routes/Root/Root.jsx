@@ -5,7 +5,7 @@ export const Root = () => {
     return (
         <>
             <nav className={s.nav}>
-                <NavLink className={s.a} to={"/"}>CAR RENTAL</NavLink>
+                <NavLink className={s.a} to={"/"}>FGT</NavLink>
                 <NavLink className={s.b} to={"Oss"}>Личный кабинет</NavLink>
                 <div className={s.navDiv}>
                     <NavLink><img src="/images/whatsapp_2.png (1).svg" alt="" /></NavLink>
@@ -18,7 +18,7 @@ export const Root = () => {
             <footer className={s.containerFoot}>
                 <div className={s.foot}>
                     <input placeholder="имя" type="text" />
-                    <input placeholder="+7 (___) ___-__-__" type="tel" id="phone"/>
+                    <input type="tel" placeholder="+79163688896"  maxLength={9} id="phone"/>
                     <input type="date" />
                     <button className={s.bun} onClick={() => alert("Успешно")} >Забронировать</button>
                 </div>

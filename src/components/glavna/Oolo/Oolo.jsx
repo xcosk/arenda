@@ -7,22 +7,22 @@ export const Oolo = () => {
          <div className={lv.flex}>
 
             <div className={lv.m1}>
-               <p className={lv.m0}>Страховка</p>
-               <p className={lv.m2}>Полное покрытие КАСКО <br />и ОСАГО по Москве и МО.</p>
+               <p className={lv.m0}>Проверенная база</p>
+               <p className={lv.m2}> эксклюзивных предложений</p>
             </div>
             <div className={lv.fo}><img src="/images/1_43_1_1.jpg.png" alt="" /></div>
             <div className={lv.f2}>
-               <p className={lv.m0}>Консьерж сервис</p>
-               <p className={lv.m2}>Мы доставим автомобиль в <br />любую точку города.</p>
+               <p className={lv.m0}>Большой опыт работы</p>
+               <p className={lv.m2}>и экспертиза во всех сегмента недвижимости</p>
             </div>
             <div><img src="/images/1_128_1.jpg.png" alt="" /></div>
             <div className={lv.r}>
-               <p className={lv.m0}>Консьерж сервис</p>
-               <p className={lv.m2}>Мы доставим автомобиль в <br />любую точку города.</p>
+               <p className={lv.m0}>    Индивидуальный </p>
+               <p className={lv.m2}>подход к каждому клиент</p>
             </div>
             <div className={lv.g}>
-               <p className={lv.m0}>Помощь на <br />дороге</p>
-               <p className={lv.m2}>При возникновении любых <br />трудностей, Вы всегда <br />можете связаться с нами и <br />мы решим все вопросы.</p>
+               <p className={lv.m0}>Мы</p>
+               <p className={lv.m2}>– обладатели самых престижных профессиональных наград</p>
             </div>
          </div>
            
